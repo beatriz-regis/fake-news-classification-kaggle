@@ -36,13 +36,13 @@ Instale as dependências com: `pip install -r requirements.txt`
 CSVs de submissão Kaggle com refit no treino completo (gerados pelos notebooks abaixo e/ou em submissions/):
 
 - Notebook: `02_baseline_tfidf_logistic_regression.ipynb`
-Saída: submission_baseline.csv
+Saída: `submission_baseline.csv`
 
 - Notebook: `06_cpu_svm_word_char.ipynb`
-Saída: submission_cpu_svm_word_char.csv
+Saída: `submission_cpu_svm_word_char.csv`
 
 - Notebook: `07_experiments_cpu_svm_word_char_grid.ipynb`
-Saída: submission_cpu_svm_word_char_ensemble.csv (ensemble simples por média de scores)
+Saída: `submission_cpu_svm_word_char_ensemble.csv` 
 
 ---
 
@@ -51,13 +51,13 @@ Saída: submission_cpu_svm_word_char_ensemble.csv (ensemble simples por média d
 Modelos serializados (gerados pelos notebooks abaixo e/ou disponibilizados em artifacts/):
 
 - Notebook: `02_baseline_tfidf_logistic_regression.ipynb`
-Saída: baseline_tfidf_logreg.joblib
+Saída: `baseline_tfidf_logreg.joblib`
 
 - Notebook: `06_cpu_svm_word_char.ipynb`
-Saída: svm_word_char.joblib
+Saída: `svm_word_char.joblib`
 
 > Observação: Um modelo em ensemble foi testado durante os experimentos, porém apresentou o mesmo desempenho (F1) do melhor modelo individual. Por esse motivo, optou-se por manter apenas o modelo único (TF-IDF word + char + Linear SVM) como artefato final, priorizando simplicidade, reprodutibilidade e interpretabilidade.
 
-# Autora
+## Autora
 
 **Ana Beatriz Regis de Souza**  

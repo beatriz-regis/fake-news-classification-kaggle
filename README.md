@@ -33,7 +33,7 @@ Instale as dependências com: `pip install -r requirements.txt`
 
 ## Geração de Submissão Kaggle
 
-CSVs de submissão Kaggle com refit no treino completo (gerados pelos notebooks abaixo e/ou em submissions/):
+CSVs de submissão Kaggle com refit no treino completo (gerados pelos notebooks abaixo e/ou disponibilizados em submissions/):
 
 - Notebook: `02_baseline_tfidf_logistic_regression.ipynb`
 Saída: `submission_baseline.csv`

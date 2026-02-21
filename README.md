@@ -53,6 +53,7 @@ Modelos serializados (gerados pelos notebooks e/ou disponibilizados em artifacts
 - `artifacts/baseline_tfidf_logreg.joblib`
 - `artifacts/svm_word_char.joblib`
 
+> Observação: Um modelo em ensemble foi testado durante os experimentos, porém apresentou o mesmo desempenho (F1) do melhor modelo individual. Por esse motivo, optou-se por manter apenas o modelo único (TF-IDF word + char + Linear SVM) como artefato final, priorizando simplicidade, reprodutibilidade e interpretabilidade.
 
 # Autora
 

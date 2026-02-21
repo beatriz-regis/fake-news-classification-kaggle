@@ -24,8 +24,8 @@ Repositório público com a implementação completa da solução para classific
 3. Execute as células em ordem.
 
 ### Opção B — Local (Python 3.10+)
-```bash
-pip install -r requirements.txt
+
+Instale as dependências com: `pip install -r requirements.txt`
 
 > Observação: os dados não estão incluídos neste repositório e devem ser obtidos na plataforma Kaggle.
 

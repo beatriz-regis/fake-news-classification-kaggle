@@ -31,7 +31,7 @@ Instale as dependências com: `pip install -r requirements.txt`
 
 ---
 
-# Geração de Submissão Kaggle
+## Geração de Submissão Kaggle
 
 Os notebooks abaixo refazem o treino no conjunto completo e geram o CSV final em submissions/:
 
